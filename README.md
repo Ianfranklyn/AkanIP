@@ -9,7 +9,7 @@ It takes your birthday date and gets your Akan name.
 * Use a server extension to view using your favorite browser.
 
 ## Live link
-
+https://ianfranklyn.github.io/AkanIP/
 
 ## Known Bugs
 No bugs.

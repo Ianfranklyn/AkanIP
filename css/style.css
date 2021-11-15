@@ -1,0 +1,115 @@
+body {
+    margin:0;
+    background-color: rgb(95, 87, 77);
+    font-size:large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+      }
+       .home-image{
+         height:50%;
+         background-position:center;
+         background-size: cover;
+         position:relative; 
+       }
+        .home-image .homebottomlefttxt{
+          position:absolute;
+          bottom:20px;
+          left:20px;
+          padding:20px;
+          color:gold;
+    
+         }
+          .card{
+          position: relative;
+
+            
+          }
+            .card .cardlefttxt{
+           position:absolute;
+           bottom :20px;
+           left:20px;
+           width:100%;
+           padding: 20px;
+           color: whitesmoke;
+    
+ 
+         }
+         h1{
+           color: tomato;
+         }
+
+
+
+         .form {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+       
+      .bg-img{
+       background-image: url("/images/form1.jpg");
+        min-height:500px;
+         background-position:center;
+         background-size: cover;
+         position:relative; 
+      }
+      .container{
+      position:absolute;
+      left:0;
+      margin:20px;
+      max-width: 500px;
+      padding:16px;
+      background-color:wheat; }
+
+
+      input[type="day"], input[type="number"], input[type="number"]{
+      width: 100%;
+      padding: 15px;
+      margin:5px 0 22px 0;
+      border: none;
+      background: #f1f1f1;
+ }
+      input[type="day"]:focus, input[type="number"]:focus, input[type="number"]:focus{
+      background-color: #ddd;
+      outline:none;
+      }
+
+      .btn{
+      background-color: #86aa0462;
+      color:white;
+      padding:16px 20px;
+      border:none;
+      cursor:pointer;
+      width:100%;
+      opacity: 0.9;
+ }
+
+      .btn:hover{
+        opacity: 1;
+      }
+          
+         @media only screen and (max-width: 600px) {
+          body {
+            background-color: gray;
+          }
+        }@media only screen and (min-width: 600px) {
+          body {
+            background-color: lightyellow;
+          }
+        }@media only screen and (min-width: 768px) {
+          body {
+            background-color: bisque;
+          }
+        }@media only screen and (min-width: 992px) {
+          body {
+            background-color: beige;
+          }
+        }@media only screen and (min-width: 1200px) {
+          body {
+            background-color:beige;
+          }
+        }
+    
+    
